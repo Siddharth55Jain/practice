@@ -1,0 +1,73 @@
+*
+{
+    box-sizing: border-box;
+}
+.row
+{
+    width: 100%;
+}
+body
+{
+    background: url(https://www.ecnmy.org/wp-content/uploads/2019/05/pets-3715733_960_720.jpg) no-repeat center center fixed;
+    background-size: cover;
+}
+div{
+    margin-bottom: 10px;
+}
+h1{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 60px;
+}
+p,h2{
+    margin: 0px;
+    text-align: center;
+    background-color: aqua;
+    font-size: medium;
+    font-style: italic;
+    overflow: auto;
+    padding: 2px;
+    border: 1px solid black;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    line-height: 30px;
+}
+@media(min-width:992px)
+{
+    .col-lg-4
+    {
+        float: left;
+        width:33.33% ;
+    }
+}
+@media(min-width:768px) and (max-width:991px)
+{
+    .col-md-6
+    {
+        float: left; 
+        width:50%;
+    }
+    .col-md-12
+    {
+        float: left;
+        width:100%;
+    }
+}
+@media(max-width:767px)
+{
+    .col-sm-12
+    {
+        float: left;
+        width:100%;
+    }
+}
+div > h2{
+    background-color: blueviolet;
+    color: white;
+    border: 1px solid black;
+    font-size: 30px;
+    text-align: right;
+}
